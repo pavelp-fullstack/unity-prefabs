@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -22,6 +22,7 @@ public class CircleFormation : MonoBehaviour
             float angleDegrees = -angle*Mathf.Rad2Deg;
             Quaternion rot = Quaternion.Euler(0, angleDegrees, 0);
             Instantiate(prefab, pos, rot);
+            //test - merge
         }
     }
 
