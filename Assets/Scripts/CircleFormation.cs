@@ -24,4 +24,9 @@ public class CircleFormation : MonoBehaviour
             Instantiate(prefab, pos, rot);
         }
     }
+    
+    void MethodFromDev1()
+    {
+        Instantiate(prefab, pos, rot);
+    }    
 }
