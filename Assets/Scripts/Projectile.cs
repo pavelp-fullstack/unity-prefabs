@@ -23,4 +23,11 @@ public class Projectile : MonoBehaviour
         Instantiate(explosion,transform.position,transform.rotation);
         Destroy(gameObject);
     }
+    void OnCollisionExit()
+    {
+        // it hit something: create an explosion, and remove the projectile
+        Instantiate(explosion,transform.position,transform.rotation);
+        Destroy(gameObject);
+    }
+
 }
