@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -25,6 +25,10 @@ public class Explosion : MonoBehaviour
         }
 
         Destroy(gameObject,5);  
+    }
+
+    void Start()
+    { 
     }
 
     public async Task Run()
