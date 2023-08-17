@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.IO;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -29,8 +30,13 @@ public class Explosion : MonoBehaviour
     }
 
     void Start()
+    {
+        string[] files = Directory.GetFiles("Assets", ".cs", SearchOptions.AllDirectories);
+
+        foreach (string file in files)
     { 
-        Debug.LogFormat("test 2");
+            Debug.LogFormat(file);
+        }
     }
 
     public async Task Run()
