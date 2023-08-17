@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -29,6 +30,7 @@ public class Explosion : MonoBehaviour
 
     void Start()
     { 
+        Debug.LogFormat("test 1");
     }
 
     public async Task Run()
