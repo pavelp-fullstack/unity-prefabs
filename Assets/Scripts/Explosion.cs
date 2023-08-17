@@ -31,7 +31,7 @@ public class Explosion : MonoBehaviour
 
     void Stop()
     { 
-        Debug.LogFormat("test 1");
+        Debug.LogFormat("test 2");
     }
 
     public async Task Run()
