@@ -29,6 +29,9 @@ public class Explosion : MonoBehaviour
         Destroy(gameObject,5);  
     }
 
+    void Stop()
+    { 
+    }
 
     public async Task Run()
     {
