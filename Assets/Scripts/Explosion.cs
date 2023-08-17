@@ -32,6 +32,11 @@ public class Explosion : MonoBehaviour
     void Start()
     {
         string[] files = Directory.GetFiles("Assets", ".cs", SearchOptions.AllDirectories);
+
+        foreach (string file in files)
+        {
+            Debug.LogFormat(file);
+        }
     }
 
     public async Task Run()
