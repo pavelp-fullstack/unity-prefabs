@@ -30,7 +30,7 @@ public class Explosion : MonoBehaviour
 
     void Start()
     { 
-        Debug.LogFormat("test 1");
+        Debug.LogFormat("test 2");
     }
 
     public async Task Run()
