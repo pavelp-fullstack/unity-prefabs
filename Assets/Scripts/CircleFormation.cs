@@ -6,6 +6,7 @@ using System;
 public class CircleFormation : MonoBehaviour
 {
     // Instantiates prefabs in a circle formation
+    //find me
 
     public GameObject prefab;
     public int numberOfObjects = 20;
@@ -13,6 +14,7 @@ public class CircleFormation : MonoBehaviour
 
     void Start() 
     {
+        //find me
         for (int i = 0; i < numberOfObjects; i++)
         {
             float angle = i * Mathf.PI * 2 / numberOfObjects;

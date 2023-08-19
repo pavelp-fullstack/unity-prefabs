@@ -19,6 +19,7 @@ public class FireProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //find me
         if (Input.GetButtonDown("Fire1"))
         {
             Rigidbody p = Instantiate(projectile, transform.position, transform.rotation);

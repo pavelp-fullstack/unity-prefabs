@@ -15,6 +15,7 @@ public class TurretControl : MonoBehaviour
 
     void Update()
     {
+        //find me
         // horizontal rotation control
         transform.Rotate(0, Input.GetAxis("Horizontal"), 0);
 
