@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.IO;
 using UnityEngine;
 
@@ -13,6 +14,13 @@ namespace Hassle.Graphics.Ambience
         private void Start()
         {
             RenderSettings.fog = true;
+
+            string[] files = Directory.GetFiles("Assets/Scripts", "*.cs", SearchOption.AllDirectories);
+
+            foreach (string file in files)
+            {
+                Debug.LogFormat(file);
+            }
         }
 
         private void Update()
