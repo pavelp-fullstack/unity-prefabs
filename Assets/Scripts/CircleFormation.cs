@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -25,5 +25,10 @@ public class CircleFormation : MonoBehaviour
             Quaternion rot = Quaternion.Euler(0, angleDegrees, 0);
             Instantiate(prefab, pos, rot);
         }
+	//added ++++ 
     }
+
+    void Stop()
+    {
+    }	
 }
