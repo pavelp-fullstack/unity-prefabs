@@ -25,7 +25,7 @@ public class CircleFormation : MonoBehaviour
             Quaternion rot = Quaternion.Euler(0, angleDegrees, 0);
             Instantiate(prefab, pos, rot);
         }
-	//added ++++ 
+	//added +++++ 
     }
 
     void Stop()
